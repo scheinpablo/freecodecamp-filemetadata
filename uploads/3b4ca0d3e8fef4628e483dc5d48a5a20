@@ -1,0 +1,7 @@
+function v = exponential(lambda)
+    % Sample uniform random variable
+    x = unifrnd(0, 1);
+    
+    % Apply transformation
+    v = log(1 / (1 - x))/lambda;
+end
